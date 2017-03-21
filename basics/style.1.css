@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    border: 1px solid black;
+}
+
+/* Navigation Section Goes Here */
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  border: 1px solid black;
+}
+
+.menu {
+  border: 1px solid green;
+  margin: 10px;
+}

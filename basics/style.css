@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px dotted red;
+    /* font-family: "Verlag", sans-serif; */
+    font-family: 'Baloo Bhaina', cursive;
+}
+
+/* Navigation Section Goes Here */
+
+.navigation {
+    background: lightseagreen;
+}
+
+.logo {
+    flex: 20%;
+    justify-content: flex-start;
+    background: black;
+}
+
+.navitems {
+  flex: 60%;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  border: 0px solid white;
+  background: lightseagreen;
+}
+
+.navitems a {
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  display: block;
+  padding: 0px 10px;
+  border: 0px solid white;
+  align-self: stretch;
+}
+
+.navitems a:hover {
+    background: lightskyblue;
+}
+
+
+
+/* Hero Section Goes Here */
+
+.hero-c {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.hero-i{
+    height: 200px;
+    flex-basis: 100%;
+    background: lightcoral;
+    line-height: 200px;
+}
+
+
+.logo {
+    display: flex;
+    align-self: flex-start;
+    background: lightseagreen;
+}
+
+/* Body section goes here */
+
+.container {
+    height: 400px;
+    display: flex;  
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+    background: lightgray;
+}
+
+.item {
+    flex-basis: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.content {
+    width: 300px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.section1{
+    flex-basis: auto;
+    background: lightsalmon;
+}
+
+.section2{
+    flex-basis: auto;
+    background: mediumaquamarine;
+}
+
+.section3{
+    flex-basis: auto;
+    background: lightgoldenrodyellow;
+}
+
+.footer{
+    background: darkgray;
+}
