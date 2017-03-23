@@ -9,22 +9,19 @@
 /* Navigation Section Goes Here */
 
 .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
     background: lightseagreen;
 }
 
 .logo {
-    flex: 20%;
-    justify-content: flex-start;
     background: black;
 }
 
 .navitems {
-  flex: 60%;
   list-style: none;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: center;
   border: 0px solid white;
   background: lightseagreen;
 }
