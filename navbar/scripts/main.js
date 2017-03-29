@@ -6,3 +6,17 @@ function toggleMenu() {
     nav.className = 'topnav';
   }
 }
+
+window.addEventListener('scroll', function() {
+  const stop = window.scrollY;
+  const header = document.getElementById('header');
+  if (stop > 100) {
+    header.classList.add('scrolleddown')
+    // header.style.background = '#FFFFFF';
+    // header.style.boxShadow = '1px 1px 5px #444444'
+  } else {
+    header.classList.remove('scrolleddown')
+    // header.style.background = '#e5e5e5'
+    // header.style.boxShadow = 'none'
+  }
+});
