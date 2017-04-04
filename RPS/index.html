@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+
+<div class="box">
+    <div id="me-r" class="button">Rock</div> 
+    <div id="me-p" class="button">Paper</div>
+    <div id="me-s" class="button">Scissors</div>
+</div>
+
+<div class="box">
+    <div id="c-r" class="button">Rock</div>
+    <div id="c-p" class="button">Paper</div>
+    <div id="c-s" class="button">Scissors</div>
+</div>
+
+    <input id="input" onkeyup="displayText()" type="text" placeholder="fill me up">
+
+<select id="picker">
+    <option>one</option>
+    <option>two</option>
+</select>
+
+<button onclick="displayText()"> Click Me </button>
+
+<div id="display"></div>
+
+    </body>
+</html>
