@@ -1,14 +1,15 @@
 
 $().ready(function () {
     $("#me-r, #me-p, #me-s").on("click", showHand);
-
+    
     function showHand(event) {
         const targetElement = event.target;
         changeClass(targetElement);
         
         const mevalue = setMeValue(targetElement);
         const compvalue = calculateComp();
-        displayWinner(mevalue, compvalue);   
+        displayWinner(mevalue, compvalue);
+        displayMessage(mevalue, compvalue);
     }
 
     function changeClass(element) {
@@ -26,8 +27,15 @@ $().ready(function () {
     }
 
     function displayWinner(me, comp) {
-        console.log('Computer got...', comp, '. You got...', me, '. YOU ARE THE WINNER!!!');
+        console.log('testing...', comp, '. You got...', me, '. YOU ARE THE WINNER!!!');
     }
 
+    function displayMessage(me, comp) {
+        const disDiv = document.getElementById("display");
+        const messageText = ('Computer got...' + comp + '. You got...' + me + '. YOU ARE THE WINNER!!!');
+        console.log(messageText);
+        disDiv.innerText = messageText;
+    }    
+    
 
 });
