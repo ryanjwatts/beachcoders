@@ -1,0 +1,3 @@
+$().ready(() => {
+  $('input').jvFloat();
+});

@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid black; }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
+
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px; }
+
+.subtitle {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px; }
+
+.options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; }
+
+.optioncopy {
+  height: 100px; }
+
+.selectoption {
+  width: 350px;
+  margin: 15px;
+  padding: 5px;
+  border: 1px solid black; }
+
+.buttonsection {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 10px; }
+
+.optionbutton {
+  display: block;
+  align-self: baseline;
+  text-align: center;
+  width: 35%;
+  padding: 10px 20px;
+  background-color: lightseagreen;
+  border-radius: 3px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=choose.css.map */

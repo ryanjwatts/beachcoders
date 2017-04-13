@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/jvfloat.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/jvfloat.js"></script>
   </head>
   
   <body>  
@@ -30,14 +32,21 @@
 
             <div class="signup-container">              
               <form class="form">
-                <input id="num-email" class="input" type="text" placeholder="Mobile Number or Email" required>
-                <input id="name" class="input" type="text" placeholder="Full Name" required>
-                <input id="user" class="input" type="text" placeholder="Username" required>
+                <input id="num-email" class="input" type="text" title="Hello" label="Hello" placeholder="Mobile Number or Email" required>
+                <input id="name" class="input" type="text" title="Full Name" label="Full Name" placeholder="Full Name" required>
+                <input id="user" class="input" type="text" title="Username" placeholder="Username" required>
                 <input id="pass" class="input" type="password" placeholder="Password" required>
                 <button type="submit" class="button">Sign Up</button>
               </form>
               
               <p class="terms">By signing up, you agree to our <br><strong>Terms</strong> & <strong>Privacy Policy</strong>.</p>
+            
+              <div class="form-swap">
+                <div class="login-link">
+                  <p>Have an account? <a class="show-login swap-link" href="#">Log in</a></p>
+                </div>
+              </div>            
+
             </div>
 
 
@@ -47,15 +56,13 @@
               <input id="pass" class="input" type="password" placeholder="Password" required>
               <button type="submit" class="button">Log in</button>
             </form>
-          </div>
 
           <div class="form-swap">
-            <div class="login-link">
-              <p>Have an account? <a class="show-login swap-link" href="#">Log in</a></p>
-            </div>
             <div class="signup-link">
               <p>Don't have an account? <a class="show-signup swap-link" href="#">Sign up</a></p>
             </div>
+          </div>          
+          
           </div>
 
           <div class="get-app">

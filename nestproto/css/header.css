@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid black; }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
+
+.title {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px; }
+
+.subtitle {
+  text-align: center;
+  margin: 20px;
+  font-size: 18px; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Instagram</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </head>
+  
+  <body>  
+    <div class="root">
+      <div class="container">
+        <div class="left-side"></div>
+
+        <div class="right-side">
+          <div class="right-content">
+            <div class="right-box">
+            <h1 class="logo">Instagram</h1>
+            
+
+              <h2 class="subheading">Sign up to see photos and videos from your friends</h2>
+
+
+            <div class="one-container">              
+              <form class="form">
+                <input id="num-email" class="input" type="text" placeholder="Mobile Number or Email">
+                <input id="name" class="input" type="text" placeholder="Full Name" >
+                <input id="user" class="input" type="text" placeholder="Username" >
+                <input id="pass" class="input" type="password" placeholder="Password" >
+                <button onclick="nextDiv('hello')" class="button next-div">Next</button>
+              </form>    
+            </div>
+
+            <div class="two-container">              
+              <form class="form">
+                <input id="num-email" class="input" type="text" placeholder="Field one">
+                <div class="checkbox">
+                  <input id="cp2-one" type="checkbox" value="c-one"><label for="cp2-one">Check One</label>
+                </div>
+                <div class="checkbox">
+                  <input id="cp2-two" type="checkbox" value="c-two"><label for="cp2-two">Check Two</label>
+                </div>
+                <div class="checkbox">
+                  <input id="cp2-three" type="checkbox" value="c-three"><label for="cp2-three">Check Three</label>
+                </div>
+                <select id="dd2" class="input" required>
+                  <option value="o-one">Option One</option>
+                  <option value="o-two">Option Two</option>
+                  </select>
+                  <button onclick="nextDiv('three')" class="button next-div">Next Again</button>
+              </form>
+            </div>
+
+            <div class="three-container">              
+              <div>    
+                  Hello
+              </div>
+              <div class="login-link">
+                <button onclick="nextDiv('one')" class="button next-div">Start Again</button>
+              </div> 
+            </div>
+          </div>
+
+          <div class="get-app">
+            <p>Get the app.</p>
+            <div class="store-icons">
+              <a href="#"><img class="appbutton" src="images/appstore.png"></a>
+              <a href="#"><img class="appbutton" src="images/playstore.png"></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <nav>
+          <ul class="bot-nav">
+            <li class="bot-link"><a href="#">About Us</a></li>
+            <li class="bot-link"><a href="#">Support</a></li>
+            <li class="bot-link"><a href="#">Blog</a></li>
+            <li class="bot-link"><a href="#">Press</a></li>
+            <li class="bot-link"><a href="#">API</a></li>
+            <li class="bot-link"><a href="#">Jobs</a></li>
+            <li class="bot-link"><a href="#">Privacy</a></li>
+            <li class="bot-link"><a href="#">Terms</a></li>
+            <li class="bot-link"><a href="#">Directory</a></li>
+            <li class="bot-link"><a href="#">Language</a></li>
+          <ul>
+        </nav>
+        <span class="copyright">&copy; 2017 Instagram</span>
+      </footer>
+    </div>
+  </body>
+</html>

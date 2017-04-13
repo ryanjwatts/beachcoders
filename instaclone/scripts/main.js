@@ -1,22 +1,25 @@
 $().ready(() => {
   const signupContainer = $('.signup-container');
   const loginContainer = $('.login-container');
+  $(loginContainer).hide();
   $('.show-login').on('click', showLogin);
   $('.show-signup').on('click', showSignup);
   
   function showLogin() {
-    $(signupContainer).hide();
-    $(loginContainer).show();
+    $(signupContainer).hide(1);
+    $(loginContainer).show(1000);
     console.log("yoyo");
   }
 
   function showSignup() {
-    $(signupContainer).show();
-    $(loginContainer).hide();
+    $(signupContainer).show(1000);
+    $(loginContainer).hide(1);
     console.log("hello");
   }  
 
 });
+
+
 
 // $(document).ready(function () {
 //   $(".show-login").click(function () {

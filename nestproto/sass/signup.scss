@@ -1,0 +1,26 @@
+$cactus:#000;
+
+@import "header.scss";
+
+@mixin header() {
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+}
+
+.container {
+    @include header();
+}
+
+.signup {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+form input {
+    display: block;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 2px;
+}

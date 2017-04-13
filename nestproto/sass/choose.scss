@@ -1,0 +1,41 @@
+@import "header.scss";
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.optioncopy {
+    height: 100px;
+}
+
+.selectoption {
+    width: 350px;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.buttonsection {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10px;
+
+}
+
+.optionbutton {
+    display: block;
+    align-self: baseline;
+    text-align: center;
+    width: 35%;
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    border-radius: 3px;
+    text-decoration: none;
+
+}

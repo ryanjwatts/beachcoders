@@ -110,16 +110,16 @@ body {
 }
 
 .login-container {
-  display: none;
+  /* display: none; */
 }
 
 .form-swap {
   margin: 15px 0px;
 }
 
-.signup-link {
+/* .signup-link {
   display: none;
-}
+} */
 
 .swap-link {
   color: #3897F0;
